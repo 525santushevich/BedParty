@@ -4,10 +4,6 @@
 <head>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/srp7roe.css">
 
     <!-- Bootstrap 5 CSS -->
@@ -17,40 +13,82 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 
+
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Offcanvas navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <!--NAVBAR CLOSE BUTTON-->
+                <div class="offcanvas-header">
+                    <div class="row">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                </div>
+                <!--NAVBAR IMAGE-->
+                <div class="row">
+                    <a class="logo" href="index.html"><img src="img/logo.png"></a>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn search" type="submit">Search</button>
+                        </form>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index2.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">COLLEGES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                CLOTHING
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Tanks</a></li>
+                                <li><a class="dropdown-item" href="#">Crop Tops</a></li>
+                                <li><a class="dropdown-item" href="#">Crew Necks</a></li>
+                                <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                                <li><a class="dropdown-item" href="#">Shorts</a></li>
+                                <li><a class="dropdown-item" href="#">Sweatpants</a></li>
+                                <li><a class="dropdown-item" href="#">Socks</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BOTTLES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ACCESSORIES</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FORM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
 
-    <!--NAVBAR-->
-    <div class="menu-trigger">
-        <div class="bars">
-            <span></span>
-            <span></span>
-            <span></span>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
         </div>
-        <p>SEARCH</p>
-    </div>
-
-    <div class="menu">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            TOPS
-        </a>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Tube Tops</a></li>
-            <li><a class="dropdown-item" href="#">Tanks</a></li>
-            <li><a class="dropdown-item" href="#">Crop Tops</a></li>
-            <li><a class="dropdown-item" href="#">Crewnecks</a></li>
-            <li><a class="dropdown-item" href="#">Hoodies</a></li>
-        </ul>
-
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            BOTTOMS
-        </a>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Shorts</a></li>
-            <li><a class="dropdown-item" href="#">Sweatpants</a></li>
-            <li><a class="dropdown-item" href="#">Socks</a></li>
-        </ul>
+    </nav>
 
 
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 
-    </div>
+</html>

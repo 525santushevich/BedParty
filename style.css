@@ -13,14 +13,16 @@ body {
 }
 
 .container {
-  background-color: rgba(196, 193, 193, 0.466);
-  padding: 50px;
-  border-radius: 15px;
+  background-color: rgba(196, 193, 193, 0.6); /* Slightly darker background */
+  padding: 60px; /* More padding for a balanced feel */
+  border-radius: 20px; /* A bit more rounded corners */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
+  box-shadow: 6px 6px 10px rgba(3, 18, 87, 0.8); /* Softer shadow with a touch of opacity */
+  text-align: center; /* Center text for a clean look */
 }
 
 h1 {
@@ -28,6 +30,15 @@ h1 {
   font-family: "dynapuff", sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: rgb(7, 18, 66);
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "fabiola-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(12, 16, 32);
 }
 
 /* SHOP NOW BUTTON */
@@ -35,6 +46,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px 10px;
 }
 
 .btn {
@@ -45,11 +57,16 @@ h1 {
   overflow: hidden;
   border-radius: 15px;
   transition: all 0.5s ease;
-  color: rgb(10, 29, 116);
-  font-size: 2rem;
+  color: rgb(233, 233, 233);
+  font-size: 3rem;
   position: relative;
   z-index: 2;
   width: 15rem;
+  border: 1px solid rgba(2, 2, 49, 0.521);
+  background-color: rgba(12, 12, 88, 0.322);
+  font-family: "fabiola-capitals", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .btn::before {
@@ -72,7 +89,9 @@ h1 {
 
 .btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgb(10, 29, 116);
+  box-shadow: 0 0 20px rgba(12, 12, 88);
+  background-color: rgba(12, 12, 88, 0.322);
+  color: rgb(233, 233, 233);
 }
 
 .btn:hover::before {
