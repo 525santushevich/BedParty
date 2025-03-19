@@ -37,3 +37,12 @@ hr {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+/* CARDS */
+.card {
+  display: inline-block;
+  height: 350px;
+  width: 250px;
+  color: blue;
+  padding: 70px;
+}
