@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(218, 215, 215);
+}
+
 .logo {
   text-align: center;
 }
@@ -39,10 +43,34 @@ hr {
 }
 
 /* CARDS */
-.card {
+.card-1 {
   display: inline-block;
+}
+
+.college {
   height: 350px;
-  width: 250px;
-  color: blue;
+  width: 350px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.card-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.college {
+  width: 100px;
+  height: auto;
   padding: 70px;
 }
