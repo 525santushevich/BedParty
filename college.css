@@ -49,6 +49,22 @@ hr {
   transform-origin: bottom left;
 }
 
+/* TITLE */
+.section {
+  margin-bottom: 4em;
+}
+
+.title-colleges {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
 /* CARDS */
 
 .container {
