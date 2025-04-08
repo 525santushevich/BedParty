@@ -339,3 +339,12 @@ body {
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+.row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.el-wrapper {
+  box-shadow: 2px 2px 2px black;
+}
