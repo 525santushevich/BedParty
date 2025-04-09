@@ -108,6 +108,9 @@ body {
   padding: 15px;
   margin: 15px auto;
   background-color: #fff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  margin: 1rem 0;
 }
 
 @media (max-width: 991px) {
@@ -343,8 +346,30 @@ body {
 .row-1 {
   display: flex;
   justify-content: center;
+  margin-bottom: 5%;
 }
 
 .el-wrapper {
+  flex: 1 1 calc(33.33% - 2rem); /* 3 cards per row with spacing */
+  max-width: 350px;
+  min-width: 250px;
+  margin: 1rem;
+  box-sizing: border-box;
   box-shadow: 2px 2px 2px black;
+  height: auto;
+}
+
+/* Tablet size — 2 per row */
+@media (max-width: 1024px) {
+  .el-wrapper {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+/* Mobile size — 1 per row, full width with padding */
+@media (max-width: 768px) {
+  .el-wrapper {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
 }
