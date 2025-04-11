@@ -39,7 +39,7 @@ hr {
   bottom: 10%;
   left: 0px;
   transform: scaleX(0);
-  background: #537ece;
+  background: rgb(63, 63, 238);
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
 }

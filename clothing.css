@@ -39,7 +39,7 @@ hr {
   bottom: 10%;
   left: 0px;
   transform: scaleX(0);
-  background: #537ece;
+  background: rgb(63, 63, 238);
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
 }
@@ -206,7 +206,7 @@ body {
   /* ease-out */
   width: 660px;
   height: 100%;
-  background-color: #3f96cd;
+  background-color: rgb(20, 20, 141);
   position: absolute;
   left: -659px;
 }
@@ -214,7 +214,7 @@ body {
 .h-bg .h-bg-inner {
   width: 50%;
   height: 100%;
-  background-color: #464646;
+  background-color: #dddddd;
 }
 
 .info-inner {
