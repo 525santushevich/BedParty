@@ -13,44 +13,31 @@ body {
 }
 
 .container {
-  background-color: rgba(196, 193, 193, 0.6);
-  border-radius: 20px;
+  background-color: rgba(6, 7, 87, 0.6);
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 60%;
-  box-shadow: 6px 6px 10px rgba(3, 18, 87, 0.8);
+  max-width: 100%;
   text-align: center;
-  padding: 0px;
+  height: 8%;
+  color: white;
 }
 
-h1 {
-  font-size: clamp(4rem, 8vw, 10rem);
+.nav-link {
+  color: white;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(158, 167, 206);
+}
+
+.title {
+  color: white;
+  padding: 20px;
+  font-size: 1.8rem;
   font-family: "dynapuff", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  color: rgb(7, 18, 66);
-  display: flex;
-  justify-content: center;
-  position: relative;
-  transition: all 0.5s ease;
-  overflow: hidden;
-}
-
-h2 {
-  font-size: clamp(2rem, 5vw, 4rem);
-  font-family: "fabiola-script", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(12, 16, 32);
-  display: inline-block;
-  padding: 1vw 3vw;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.5s ease;
+  margin: 0 auto;
 }
 
 /* SHOP NOW BUTTON */
