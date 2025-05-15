@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background-color: rgba(6, 7, 87, 0.6);
+  background-color: rgb(6, 7, 87);
   position: absolute;
   max-width: 100%;
   text-align: center;
@@ -33,11 +33,34 @@ body {
 }
 
 .title {
-  color: white;
+  color: rgb(129, 147, 228);
   padding: 20px;
-  font-size: 1.8rem;
   font-family: "dynapuff", sans-serif;
   margin: 0 auto;
+  margin-top: 5%;
+}
+
+h1 {
+  text-shadow: 2px 2px 2px rgb(255, 253, 253);
+  font-size: 7rem;
+}
+
+h2 {
+  font-family: "filosofia", serif;
+  font-size: 2rem;
+}
+
+.shop {
+  margin-top: 3%;
+}
+
+.shop-now {
+}
+
+.navbar-logo {
+  height: 3rem;
+  margin-right: 10px;
+  border-radius: 5px 5px;
 }
 
 /* SHOP NOW BUTTON */
