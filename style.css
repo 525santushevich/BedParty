@@ -1,24 +1,24 @@
 body {
-  background-size: cover;
+  background-image: url("/img/background.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(228, 213, 190);
+  background-size: cover;
 }
 
 .container {
-  background-color: rgb(6, 7, 87);
+  background: radial-gradient(#36199c, #100f4d);
   position: absolute;
   max-width: 100%;
   text-align: center;
   height: 8%;
   color: white;
+  box-shadow: 1px 1px 1px white;
 }
 
 .nav-link {
-  color: rgb(228, 213, 190);
+  color: rgb(255, 245, 202);
   padding: 20px;
   font-size: 1.3rem;
   font-family: "Cal Sans", sans-serif;
@@ -36,7 +36,7 @@ body {
   margin-top: 10%;
 }
 
-h1 {
+.name {
   text-shadow: 2px 2px 2px rgb(255, 253, 253);
   font-size: 7.5rem;
 }
@@ -60,7 +60,7 @@ h2 {
   transition: 0.5s;
   padding: 15px;
   border-radius: 40px 40px;
-  margin-top: 4.5%;
+  margin-top: 4%;
 }
 
 .shop:hover {
@@ -91,5 +91,94 @@ h2 {
 
 .important {
   margin-top: 10%;
-  background-color: rgb(6, 7, 87);
+  background: radial-gradient(#36199c, #100f4d);
+  padding: 20px;
+  box-shadow: 1px 1px 1px white;
+}
+
+.info {
+  font-size: 3.5rem;
+  color: rgb(255, 245, 202);
+  margin-bottom: 2%;
+}
+
+.words {
+  margin-top: 1%;
+  font-size: 1.7rem;
+  font-family: "balto", sans-serif;
+}
+
+/* CLOTHING CARD STYLING */
+#clothes {
+  color: rgb(12, 19, 78);
+  padding: 20px;
+  font-family: "curve", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0 auto;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  font-size: 7.5rem;
+  background-color: rgba(255, 255, 255, 0.404);
+  margin-top: 3%;
+  max-height: 40%;
+  max-width: 40%;
+  border-radius: 30px 30px;
+}
+
+.card {
+  width: 275px;
+  height: 375px;
+  background: rgb(255, 245, 202);
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 5%;
+  padding: 20px;
+}
+
+.card:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  background: radial-gradient(#36199c, #100f4d);
+}
+
+.picture {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.card:hover .picture {
+  height: 0px;
+  opacity: 0;
+}
+
+.price {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+  color: rgb(255, 245, 202);
+}
+
+.card:hover .price {
+  opacity: 1;
+  height: 100%;
+  font-size: 2.5rem;
+  transform: rotate(0deg);
 }
