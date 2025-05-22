@@ -17,6 +17,11 @@ body {
   box-shadow: 1px 1px 1px white;
 }
 
+hr {
+  padding: 10px 30px;
+  margin-top: 5%;
+}
+
 .nav-link {
   color: rgb(255, 245, 202);
   padding: 20px;
@@ -181,4 +186,38 @@ h2 {
   height: 100%;
   font-size: 2.5rem;
   transform: rotate(0deg);
+}
+
+/* BOTTLES STYLING */
+#bottles {
+  color: rgb(12, 19, 78);
+  padding: 20px;
+  font-family: "curve", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0 auto;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  font-size: 7.5rem;
+  background-color: rgba(255, 255, 255, 0.404);
+  margin-top: 3%;
+  max-height: 40%;
+  max-width: 40%;
+  border-radius: 30px 30px;
+}
+
+/* CONTACT STYLING */
+#contact {
+  color: rgb(12, 19, 78);
+  padding: 20px;
+  font-family: "curve", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0 auto;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  font-size: 7.5rem;
+  background-color: rgba(255, 255, 255, 0.404);
+  margin-top: 3%;
+  max-height: 40%;
+  max-width: 40%;
+  border-radius: 30px 30px;
 }
